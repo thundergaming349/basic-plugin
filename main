@@ -1,0 +1,12 @@
+public class Main extends JavaPlugin {
+
+@Override
+public static void onEnable() {
+	getLogger.info("Plugin Enabled");
+}
+
+@Override
+public static void onDisable() {
+ 	getLogger.info("Plugin Disabled");
+  }
+}
